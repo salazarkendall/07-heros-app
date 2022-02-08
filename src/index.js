@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HeroesApp } from './HeroesApp';
+import { HerosApp } from './HerosApp';
 
-ReactDOM.render(<HeroesApp />, document.getElementById('root'));
+ReactDOM.render(<HerosApp />, document.getElementById('root'));

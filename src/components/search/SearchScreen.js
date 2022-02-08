@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import queryString from 'query-string';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { getHerosByName } from '../../helpers/getHerosByName';
