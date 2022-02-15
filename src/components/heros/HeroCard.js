@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
+import { heroImages } from '../../helpers/heroImages';
 import './HeroCard.css';
-
 export const HeroCard = ({
 	id,
 	superhero,
@@ -15,7 +15,7 @@ export const HeroCard = ({
 			className="my-card animate__animated animate__fadeIn"
 		>
 			<img
-				src={`/assets/${id}.jpg`}
+				src={heroImages(`./${id}.jpg`)}
 				className="img img-responsive"
 				alt={superhero}
 			/>
