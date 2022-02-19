@@ -15,9 +15,7 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
 			<Link className="navbar-brand" to="/">
-				<i className="far fa-calendar-plus fa-5x"></i>
 				Comics
-				<i className="bi-github" role="img" aria-label="GitHub"></i>
 			</Link>
 
 			<div className="navbar-collapse">

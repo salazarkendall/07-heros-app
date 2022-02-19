@@ -14,7 +14,10 @@ export const SearchScreen = () => {
 		searchInput: q,
 	});
 
-	const filteredHeros = useMemo(() => getHerosByName(q), [q]);
+	const filteredHeros = useMemo(() => {
+		console.log('rerender');
+		return getHerosByName(q);
+	}, [q]);
 
 	const handleSearch = (e) => {
 		e.preventDefault();
