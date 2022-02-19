@@ -15,7 +15,8 @@ export const HeroCard = ({
 			className="my-card animate__animated animate__fadeIn"
 		>
 			<img
-				src={heroImages(`./${id}.jpg`)}
+				// src={heroImages(`./${id}.jpg`)}
+				src={`https://raw.githubusercontent.com/salazarkendall/07-heros-app/master/src/assets/${id}.jpg`}
 				className="img img-responsive"
 				alt={superhero}
 			/>

@@ -15,7 +15,7 @@ export const SearchScreen = () => {
 	});
 
 	const filteredHeros = useMemo(() => {
-		console.log('rerender');
+		// console.log('rerender');
 		return getHerosByName(q);
 	}, [q]);
 
